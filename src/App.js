@@ -12,6 +12,8 @@ function App() {
   const [currentSale, setCurrentSale] = useState([]);
   const [cartTotal, setCartTotal] = useState(0);
 
+  // function showProducts() {}
+
   useEffect(() => {
     api.get("/products").then((response) => setProducts(response.data));
   }, []);

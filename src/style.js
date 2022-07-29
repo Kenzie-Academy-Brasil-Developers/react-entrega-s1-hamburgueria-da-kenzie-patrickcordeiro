@@ -16,6 +16,13 @@ const DivApp = styled.div`
     height: 100%;
     gap: 30px;
   }
+
+  @media screen and (min-width: 1024px) {
+    main {
+      flex-direction: row;
+      width: 80%;
+    }
+  }
 `;
 
 export default DivApp;

@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const DivCart = styled.div`
   width: 90%;
+  max-width: 365px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -9,6 +10,11 @@ export const DivCart = styled.div`
   border-radius: 5px;
   background-color: var(--gray-none);
   font-family: var(--font-base);
+
+  @media screen and (min-width: 1024px) {
+    align-self: flex-start;
+    margin-top: 50px;
+  }
 `;
 
 export const DivTitle = styled.div`

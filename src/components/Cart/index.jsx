@@ -1,6 +1,7 @@
+import { useEffect } from "react";
 import { DivCart, DivTitle, DivItens } from "./style";
 
-function Cart() {
+function Cart({}) {
   return (
     <DivCart>
       <DivTitle>

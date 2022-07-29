@@ -31,6 +31,19 @@ export const Li = styled.li`
     font-size: 18px;
     color: var(--black);
   }
+
+  @media screen and (min-width: 768px) {
+    height: auto;
+    div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    justify-content: space-between;
+  }
 `;
 
 export const Category = styled.span`
