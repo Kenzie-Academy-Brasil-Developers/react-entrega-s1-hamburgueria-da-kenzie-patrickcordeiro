@@ -10,4 +10,5 @@ export const TagButton = styled.button`
   font-size: 14px;
   border-radius: 8px;
   border-style: none;
+  cursor: pointer;
 `;

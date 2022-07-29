@@ -7,6 +7,7 @@ const DivApp = styled.div`
   align-items: center;
   width: 100%;
   height: 100%;
+  gap: 30px;
 
   main {
     display: flex;

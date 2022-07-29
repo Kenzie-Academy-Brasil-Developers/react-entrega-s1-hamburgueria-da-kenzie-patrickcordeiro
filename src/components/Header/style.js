@@ -9,6 +9,7 @@ const TagHeader = styled.header`
   justify-content: center;
   gap: 15px;
   background-color: var(--gray-none);
+  margin-top: 10px;
 
   img {
     margin-top: 10px;

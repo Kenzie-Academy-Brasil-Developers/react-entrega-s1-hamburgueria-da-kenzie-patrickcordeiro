@@ -1,11 +1,18 @@
 import Product from "../Product";
 import Ul from "./style";
 
-function ProductsList({ products }) {
+function ProductsList({ products, showProducts, handleClick }) {
   return (
     <Ul>
       {products.map((product) => {
-        return <Product key={product.id} product={product}></Product>;
+        return (
+          <Product
+            key={product.id}
+            product={product}
+            showProducts={showProducts}
+            handleClick={handleClick}
+          ></Product>
+        );
       })}
     </Ul>
   );

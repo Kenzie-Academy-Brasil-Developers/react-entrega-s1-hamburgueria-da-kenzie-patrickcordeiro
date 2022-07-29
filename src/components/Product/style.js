@@ -10,9 +10,11 @@ export const Li = styled.li`
   width: 300px;
   height: 80%;
   gap: 10px;
+  max-height: 400px;
 
   div {
     width: 100%;
+    background-color: var(--gray-none);
   }
 
   img {
